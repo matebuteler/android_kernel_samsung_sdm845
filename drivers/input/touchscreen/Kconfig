@@ -17,6 +17,7 @@ config TOUCHSCREEN_PROPERTIES
 	def_tristate INPUT
 	depends on INPUT
 
+<<<<<<< HEAD
 config TOUCHSCREEN_88PM860X
 	tristate "Marvell 88PM860x touchscreen"
 	depends on MFD_88PM860X
@@ -1452,6 +1453,8 @@ config SECURE_TOUCH
 
 	  If unsure, say N.
 
+=======
+>>>>>>> d9ff93b75c89... drivers: touchscreen: cleanup
 config TOUCHSCREEN_DUMP_MODE
 	bool "touchscreen dump mode"
 	depends on I2C
@@ -1462,6 +1465,9 @@ config TOUCHSCREEN_DUMP_MODE
 
 source "drivers/input/touchscreen/sec_ts/Kconfig"
 source "drivers/input/touchscreen/sec_ts/y771/Kconfig"
+<<<<<<< HEAD
 source "drivers/input/touchscreen/stm/Kconfig"
 source "drivers/input/touchscreen/sec_ts_y661_dual/Kconfig"
+=======
+>>>>>>> d9ff93b75c89... drivers: touchscreen: cleanup
 endif
